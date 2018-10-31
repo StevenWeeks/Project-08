@@ -45,6 +45,9 @@ router.post('/search', (req, res, next) => {
         },
         {
           genre: { like: '%' + (req.body.search) + '%' }
+        },
+        {
+          year: { like: '%' + (req.body.search) + '%' }
         }
       ]
     }
