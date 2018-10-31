@@ -16,7 +16,7 @@ a {
 
 .pagination {
   margin: 40px 0 0 0;
-  width: 50%;
+
   text-align: center;
 
 }
@@ -67,6 +67,7 @@ input[type=submit] {
 
 p {
   margin: 20px auto;
+  color: #afcbd6
 }
 
 ul {
@@ -76,6 +77,9 @@ ul {
   line-height: 1.3em;
 }
 
+h1 {
+  color: white;
+}
 h2 {
   border-top: 2px solid #e7e7e7;
   padding-top: 20px;
@@ -110,6 +114,7 @@ label {
   min-width: 130px;
   display: inline-block;
   transition: 0.4s;
+  color: white;
 }
 
 input {
